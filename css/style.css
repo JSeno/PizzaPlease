@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.top-bar {
+  font-family: "Rubik Vinyl", serif;
+  background-color: #EB891A;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+
+}
+
+.topo {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0;
+}
+
+.top-logo {
+  flex: 1 0 60%;
+  color: #E9C59C;
+}
+
+.top-links {
+  text-decoration: none;
+  color: #E9C59C;
+}
+
+.top-links a {
+  text-decoration: none;
+  color: #E9C59C;
+}
