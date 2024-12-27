@@ -8,38 +8,51 @@ body {
   font-family: "Montserrat", serif;
   font-weight: 400;
   font-style: normal;
+  margin-top: 5vh;
+  background-color: #f7d931;
+  color: #DE6D35;
+}
+
+body h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #DE6D35;
+  text-align: center;
 }
 
 .top-bar {
   width: 100%;
-  height: 5vh;
+  height: 60px;
   position: fixed;
   background-color: #DE6D35;
+  z-index: 1000;
+  padding: 0;
+  margin-top: 0;
+  align-items: center;
 }
 
 .top-logo h1 {
   color: #f7d931;
   position: absolute;
   font-size: 32px;
-  left: 2%;
+  margin-left: 20px;
 }
 
 .top-links {
-  position: absolute;
-  right: 5%;
-  top: 35%;
+  margin-left: auto;
+  margin-right: 20px;
 }
 
 .top-links a {
   color: #f7d931;
-  text-decoration: none;
-  font-weight: bold;
+  margin-top: 70px;
+  padding: 20px;
 }
 
 .menu-principal {
   width: 100%;
-  position: absolute;
-  align-items: center;
+  position: relative;
+  margin-top: 5vh;
 }
 
 .menu-pizza {
@@ -47,12 +60,19 @@ body {
   position: relative;
 }
 
+.menu-pizza h2 {
+  margin-top: 0;
+  padding-top: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
 .pizzas {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: space-around;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
 
