@@ -21,24 +21,26 @@ body h2 {
 }
 
 .top-bar {
+  display: flex;
   width: 100%;
-  height: 60px;
+  height: 100px;
   position: fixed;
   background-color: #DE6D35;
-  z-index: 1000;
+  z-index: 1;
   padding: 0;
-  margin-top: 0;
+  margin: -50px 1px 0px 1px;
   align-items: center;
 }
 
 .top-logo h1 {
   color: #f7d931;
-  position: absolute;
+  position: relative;
   font-size: 32px;
   margin-left: 20px;
 }
 
 .top-links {
+  position: relative;
   margin-left: auto;
   margin-right: 20px;
 }
@@ -52,7 +54,6 @@ body h2 {
 .menu-principal {
   width: 100%;
   position: relative;
-  margin-top: 5vh;
 }
 
 .menu-pizza {
@@ -62,7 +63,7 @@ body h2 {
 
 .menu-pizza h2 {
   margin-top: 0;
-  padding-top: 20px;
+  padding-top: 80px;
   font-size: 24px;
   text-align: center;
 }
@@ -174,4 +175,62 @@ body h2 {
 
 .map-endereco h3 {
   margin: 50px;
+}
+
+.menu-sobrenos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+}
+
+.sobre-nos h3 {
+  color: #DE6D35;
+  margin: 5px;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sobre-nos p {
+  color: #DE6D35;
+  margin: 5px;
+  text-align: justify;
+  padding: 20px;
+}
+
+.map-endereco {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 140px 20px 30px 20px;
+}
+
+.enderecop {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.enderecop h3 {
+  color: #DE6D35;
+  margin: 5px;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.enderecop p {
+  color: #DE6D35;
+  margin: 5px;
+  text-align: center;
+  padding: 20px;
 }
